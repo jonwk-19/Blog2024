@@ -1,0 +1,9 @@
+.gridForData {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Para que los elementos ocupen toda la altura */
+}
+
+.gridForData > * {
+  margin-bottom: 20px; /* Espacio entre elementos */
+}
