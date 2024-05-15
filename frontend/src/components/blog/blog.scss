@@ -54,12 +54,14 @@ section{
   .content{
     background: rgba(0,0,0,0.5);
     width: 100%;
-    height: 50%;
+    height: 100%;
     
     .header{
       position: absolute;
       top: 55%;
       width: 100%;
+      // -webkit-transform: translate(0%, -50%);
+      // transform: translate(0%, -50%);
       text-align: center;
       opacity: 0;
       
@@ -84,11 +86,11 @@ section{
       color: #3d3d3d;
       font-size: 3em;
       margin-bottom: 20px;
-    //   -webkit-transform: translateY(-50px) scale(0);
-    //   transform: translateY(-50px) scale(0);
-    //   -webkit-transition: transform .7s;
-    //   -moz-transition: transform .7s;
-    //   transition: transform .7s;  
+      // -webkit-transform: translateY(-50px) scale(0);
+      // transform: translateY(-50px) scale(0);
+      // -webkit-transition: transform .7s;
+      // -moz-transition: transform .7s;
+      // transition: transform .7s;  
     }
     
     .aboutTitleVisible{
@@ -338,7 +340,7 @@ section{
         
         &:hover {
           span{
-            opacity: 0;
+            opacity: 0.5;
             -webkit-transition: opacity .4s;
             -moz-transition: opacity .4s;
             transition: opacity .4s;
