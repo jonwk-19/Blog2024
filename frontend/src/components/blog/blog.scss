@@ -63,7 +63,7 @@ section{
       // -webkit-transform: translate(0%, -50%);
       // transform: translate(0%, -50%);
       text-align: center;
-      opacity: 0;
+      opacity: 1;
       
       h1{
         color: #fff;
@@ -151,7 +151,7 @@ section{
         }
 
         .hidden {
-          opacity: 0;
+          opacity: 0; //experiencie content hidden
           margin-left: 10vw;
         }
 

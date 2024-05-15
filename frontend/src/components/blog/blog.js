@@ -5,11 +5,11 @@ document.addEventListener("DOMContentLoaded", function() {
   var developmentIsVisible = false;
 
   /* ####### SECCIÓN HERO ####### */
-  var headerContent = document.querySelector('.hero .content .header');
-  setTimeout(function() {
-      headerContent.style.opacity = '1';
-      headerContent.style.top = '50%';
-  }, 500);
+  // var headerContent = document.querySelector('.hero .content .header');
+  // setTimeout(function() {
+  //     headerContent.style.opacity = '1';
+  //     headerContent.style.top = '50%';
+  // }, 500);
 
   window.addEventListener("scroll", function() {
       var bottom_of_window = window.pageYOffset + window.innerHeight;

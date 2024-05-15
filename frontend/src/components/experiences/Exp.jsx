@@ -7,26 +7,26 @@ export const Exp = ({}) => {
 
   return (
     <div>
-      <section class="experience">
-        <div class="content">
+      <section className="experience">
+        <div className="content">
           <h1>Experiences</h1>
           <ul>
             <li>
-              <div class="experience-content hidden">
+              <div className="experience-content hidden">
                 <h2>Company</h2>
-                <div class="experience-time">Jan - Jun 2016</div>
+                <div className="experience-time">Jan - Jun 2016</div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Alias debitis praesentium itaque veniam dolorum cupiditate
+                  Alias debitis praesentium itaque veniam dolorum cupiditate  
                   asperiores optio beatae, qui perferendis ipsam odit modi nemo
                   natus corrupti neque quos distinctio facilis?
                 </p>
               </div>
             </li>
             <li>
-              <div class="experience-content hidden">
+              <div className="experience-content hidden">
                 <h2>Company</h2>
-                <div class="experience-time">Jul - Dec 2015</div>
+                <div className="experience-time">Jul - Dec 2015</div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Obcaecati quas, reiciendis quis sequi voluptatem consectetur
@@ -36,9 +36,9 @@ export const Exp = ({}) => {
               </div>
             </li>
             <li>
-              <div class="experience-content hidden">
+              <div className="experience-content hidden">
                 <h2>Company</h2>
-                <div class="experience-time">Mar - Jun 2015</div>
+                <div className="experience-time">Mar - Jun 2015</div>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                   Obcaecati quas, reiciendis quis sequi voluptatem consectetur
