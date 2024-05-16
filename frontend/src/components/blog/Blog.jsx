@@ -5,12 +5,9 @@ import {Skill} from "../skill/Skill.jsx";
 import {Card} from "../card/Card.jsx";
 import { AboutMe } from "../aboutMe/aboutMe.jsx";
 import "./blog.scss";
-// import "./"
-// import "./blog.js";
+import "./blog.js";
 
-// export const Blog = ({ exp, skill, proyect }) => {
 export const Blog = ({}) => {
-  const navigate = useNavigate();
 
   return (
     <div >

@@ -9,7 +9,7 @@ export const AboutMe = ({}) => {
       <section className="hero">
         <div className="content">
           <div className="header">
-            <h1>Simple Responsive Portfolio</h1>
+            <h1>Welocome to my Blog ;)</h1>
           </div>
         </div>
       </section>
@@ -17,8 +17,8 @@ export const AboutMe = ({}) => {
         <div className="content">
           <h2>Hi !</h2>
           <p>
-            I'm <span>Jonathan Domingo</span>.. I am a lover of 
-            <span>Programming and cybersecurity</span> they have an inexplicable
+            I'm <span>Jonathan Domingo</span>.. I am a lover of
+            <span> Programming and cybersecurity</span> they have an inexplicable
             attraction for me. <span>Since I was little</span> I marveled at this world.
             Craft solutions to complex problems and design systems that
             challenge the limits of imagination. However, it is not only the act

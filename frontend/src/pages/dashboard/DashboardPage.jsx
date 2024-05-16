@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { LoadSpinner } from "../../components/LoadSpinner";
 import { Content } from "../../components/dashboard/Content.jsx";
 import "../../components/blog/blog.scss";
-// import "../../components/blog/blog.css";
 import "../../components/blog/blog.js"; // Importar blog.js para activar el script
 
 export const DashboardPage = () => {
