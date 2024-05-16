@@ -1,0 +1,57 @@
+http://localhost:8080/blog/v1/user
+
+{
+  "name": "Jonwk",
+  "password": "Jon123",
+  "mail": "jonwk@kinal.com"
+}
+
+
+http://localhost:8080/blog/v1/auth/login
+
+{
+    "mail": "jonwk@kinal.com",
+    "password":"Jon123"
+}
+
+http://localhost:8080/blog/v1/skill
+
+http://localhost:8080/blog/v1/skill
+
+{
+    "skill":"Java",
+    "porcent":"80"
+}
+
+http://localhost:8080/blog/v1/proyect
+
+http://localhost:8080/blog/v1/proyect
+
+{
+    "title": "Título de la publicación",
+  "subTitle": "Subtítulo de la publicación",
+  "description": "Descripción de la publicación",
+  "img": "URL_de_la_imagen",
+  "timePeriod": "Periodo de tiempo",
+  "technologies": "Java HTML CSS"
+}
+
+http://localhost:8080/blog/v1/exp
+
+http://localhost:8080/blog/v1/exp
+
+{
+  "place": "Nombre del lugar",
+  "timePeriod": "Periodo de tiempo",
+  "description": "Descripción del lugar o evento"
+}
+
+http://localhost:8080/blog/v1/comment
+
+http://localhost:8080/blog/v1/comment
+
+{
+    "proyectID": "56465231231531561531231",
+    "user": "Jon",
+    "comment": "HI"
+}
