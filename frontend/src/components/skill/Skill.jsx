@@ -41,7 +41,7 @@ export const Skill = ({}) => {
               </li>
               <li>
                 <div className="progressbar-title">
-                  <h3>PHP</h3>
+                  <h3>Flutter</h3>
                   <span className="percent" id="php-pourcent"></span>
                 </div>
                 <div className="bar-container" data-percent="65">
@@ -50,7 +50,7 @@ export const Skill = ({}) => {
               </li>
               <li>
                 <div className="progressbar-title">
-                  <h3>AngularJS</h3>
+                  <h3>ReactJS</h3>
                   <span className="percent" id="angular-pourcent"></span>
                 </div>
                 <div className="bar-container" data-percent="70">
@@ -65,15 +65,15 @@ export const Skill = ({}) => {
               <ul className="tools">
                 <li>
                   <i className="fa fa-check" aria-hidden="true"></i>
-                  Photoshop
+                  Visual Studio Code
                 </li>
                 <li>
                   <i className="fa fa-check" aria-hidden="true"></i>
-                  Adobe Illustrator
+                  MySQL
                 </li>
                 <li>
                   <i className="fa fa-check" aria-hidden="true"></i>
-                  Sublime text
+                  IA
                 </li>
               </ul>
             </div>
@@ -82,11 +82,15 @@ export const Skill = ({}) => {
               <ul className="knowledge">
                 <li>
                   <i className="fa fa-check" aria-hidden="true"></i>
-                  Wireframing
+                  Database design
                 </li>
                 <li>
                   <i className="fa fa-check" aria-hidden="true"></i>
                   Responsive design
+                </li>
+                <li>
+                  <i className="fa fa-check" aria-hidden="true"></i>
+                  Proyect Magnament
                 </li>
                 <li>
                   <i className="fa fa-check" aria-hidden="true"></i>
@@ -101,10 +105,10 @@ export const Skill = ({}) => {
       </section>
       <section className="resume">
         <div className="content">
-            <a href="#" target="_blank">
+            <a href="https://github.com/jdomingo2022206" target="_blank">
             <div className="btn-resume">
                 <i className="fa fa-download fa-2x" aria-hidden="true"></i>
-                <span>Download my resume</span>
+                <span>My resume</span>
             </div>
             </a>
         </div>
