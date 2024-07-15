@@ -201,6 +201,92 @@ section{
   }
 }
 
+/*##### CONTACT SECTION #####*/
+
+.contact {
+  background: $secondary-bg-color;
+  padding: 30px;
+  
+  .content {
+    
+    h1{
+      font-size: 2em;
+      color: #fff;
+      text-align: center;
+      padding: 3px;
+    }
+    padding: 50px 200px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    .form {
+      background: #fff; /* Fondo blanco para el formulario */
+      padding: 30px; /* Espacio interno dentro del formulario */
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px; /* Separación inferior */
+      
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px; /* Ajusta el tamaño del texto según sea necesario */
+      }
+      
+      textarea {
+        height: 120px; /* Ajusta la altura del textarea según sea necesario */
+      }
+    }
+  }
+  .submit {
+    background: #333; /* Fondo del botón */
+    color: #fff; /* Color del texto */
+    border: 0; /* Borde del botón */
+    padding: 10px 15px; /* Espacio interno del botón */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor de tipo mano */
+  }
+  
+  .socials {
+    list-style-type: none;
+    width: 100%;
+    margin-top: 20px;
+    
+    .social {
+      width: 25%;
+      float: left;
+      text-align: center;
+      margin-bottom: 10px;
+      
+      a {
+        color: #f1f1f1;
+        font-size: 1.5em;
+        transition: color .3s;
+        display: block;
+        padding: 10px 0;
+      }
+      
+      .email{color:#f0f0f0;}
+      .github{color:#f0f0f0;} 
+      .linkedin{color:#f0f0f0;} 
+      .codepen{color:#f0f0f0;} 
+      .email:hover { color: #c8a028; }
+      .github:hover { color: #ca720d; }
+      .linkedin:hover { color: #0177B5; }
+      .codepen:hover { color: #2bc1e2; }
+    }
+  }
+  
+  .clear {
+    clear: both;
+  }
+}
+
+
 /*##### SKILLS SECTION #####*/
 
 .skills{

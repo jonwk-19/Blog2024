@@ -6,6 +6,7 @@ export const Content = ({}) => {
     return(
         <div className="content-container">
             <Routes>
+                <Route path="/" element={<Blog />}/>
                 <Route path="dashboard" element={<Blog />}/>
             </Routes>
         </div>
